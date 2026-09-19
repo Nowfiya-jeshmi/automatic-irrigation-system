@@ -84,27 +84,6 @@ The system can send information such as:
 * **Blynk IoT**
 * **NodeMCU ESP8266**
 
-## 📂 Project Structure
-
-```text
-Automatic-Irrigation-System/
-│
-├── README.md
-│
-├── code/
-│   └── main.py
-│
-├── images/
-│   ├── project.jpg
-│   ├── circuit.jpg
-│   └── blynk.jpg
-│
-├── circuit/
-│   └── circuit_diagram.png
-│
-└── documentation/
-    └── project_documentation.pdf
-```
 
 ## 🔌 Pin Configuration
 
@@ -115,56 +94,6 @@ Automatic-Irrigation-System/
 | Relay Module         | D6           |
 | Status LED           | Built-in LED |
 
-## 🚀 How to Run
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/automatic-irrigation-system.git
-```
-
-### 2. Open the Code
-
-Open:
-
-```text
-code/main.py
-```
-
-using a MicroPython-compatible IDE.
-
-### 3. Configure Wi-Fi and Blynk
-
-Update the following values in the code:
-
-```python
-WIFI_SSID = "YOUR_WIFI_NAME"
-WIFI_PASSWORD = "YOUR_WIFI_PASSWORD"
-BLYNK_AUTH_TOKEN = "YOUR_BLYNK_AUTH_TOKEN"
-```
-
-### 4. Upload to NodeMCU
-
-Upload `main.py` to the NodeMCU ESP8266 and run the program.
-
-### 5. Monitor the System
-
-Open the Blynk App to monitor the irrigation system and sensor information.
-
-## ⚠️ Important Note
-
-Do **not** upload real Wi-Fi passwords or Blynk authentication tokens to a public GitHub repository.
-
-Use placeholders or a separate configuration file for sensitive information.
-
-## 📊 Future Enhancements
-
-* 📧 Email or mobile notifications
-* 🌡️ Temperature and humidity monitoring
-* 📈 Historical sensor-data graphs
-* ☁️ Cloud-based data storage
-* 🔋 Solar-powered irrigation
-* 🤖 Smart irrigation based on weather data
 
 ## 👩‍💻 Project Information
 
@@ -180,6 +109,5 @@ Use placeholders or a separate configuration file for sensitive information.
 
 **Project Duration:** December 2025 – March 2026
 
----
 
-⭐ **If you find this project useful, consider giving the repository a star!**
+
